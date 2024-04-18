@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #232222;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 44px;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+nav ul li{
+    padding: 0 14px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    height:31px;
+    padding: 0 4px;
+}
+
+.container{
+    min-height: 68vh;
+    width: 70%;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    margin: 12px auto;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    padding: 12px;
+
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: sticky;
+    /* text-align: center; */
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    
+}
+
+.icons{
+    margin: 12px;
+    
+}
+.icons i{
+    padding: 0 15px;
+}
+
+.icons i{
+    cursor:pointer;
+} 
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.35s ease-in;
+}
+
+
+
+#myProgressBar{
+    width: 80vw;
+    cursor:pointer;
+}
+
+.songItemContainer{
+    margin: 30px 0;
+}
+
+.songItem{
+    height: 30px;
+    border-radius: 23px;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.songItem img{
+    width: 23px;
+    margin-left: 10px;
+    border-radius: 34px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.left{
+    width: 40%;
+}
+
+#banner{
+    margin-left: 7vw;
+    margin-top: 24px;
+    opacity: 0.9;
+    border-radius: 10px;
+    height: 60vh;
+    width: 31vw;
+    border-radius: 30px;
+}
